@@ -1,0 +1,79 @@
+@import url("https://rsms.me/inter/inter.css");
+
+.improved-page {
+  margin: 20px;
+  width: 100%;
+  background: none;
+}
+
+.small-input {
+  max-width: 700px;
+  margin-left: 5vw;
+  width: 80%;
+}
+
+.no-image {
+  padding-top: 7.5vh;
+  padding-bottom: 7.5vh;
+  font-size: 10vh;
+  color: grey;
+}
+
+.image-card {
+  width: calc(100% - 20px);
+  margin: 10px;
+}
+
+.upload-button {
+  float: left;
+}
+
+.markup-button {
+  float: right;
+}
+
+.left-tab {
+  padding-left: 50px;
+  padding-right: 50px;
+}
+
+.right-tab {
+  padding-left: 15px;
+  padding-right: 15px;
+}
+
+.camera-snapshot {
+  margin-right: 0;
+  margin-left: 0;
+  padding-right: 0;
+  padding-left: 0;
+  margin-bottom: 10vh;
+  align-content: center;
+}
+
+.text-markup {
+
+}
+
+.section_aria {
+  flex-grow: 1;
+  min-width: 200px;
+  margin-top: 10vh;
+}
+
+.save-class {
+  position: fixed;
+  bottom: 40px;
+  right: 40px;
+  width: 120px;
+  height: 120px;
+  padding: 10px;
+}
+
+.improved-image {
+  height: 25vh;
+}
+
+.take-snapshot {
+  margin: 20px;
+}

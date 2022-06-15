@@ -1,0 +1,36 @@
+.cards_page {
+  margin: 10px;
+  padding: 10px;
+}
+
+.cards {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.card {
+  margin: 10px;
+  padding: 5px;
+  border: 1px solid grey;
+  border-radius: 15px;
+}
+
+.selected {
+  box-shadow: 0 0 20px rgba(0,135,0,1);
+}
+            
+.card:hover {
+  box-shadow: 0 0 10px rgba(0,0,0,0.5);
+}
+
+.card:active {
+  transform: translateY(4px);
+}
+
+.start_button:hover {
+  box-shadow: 0 0 10px rgba(0,0,0,0.5);
+}
+
+.start_button:active {
+  transform: translateY(4px);
+}

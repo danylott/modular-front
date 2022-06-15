@@ -1,0 +1,57 @@
+{
+  "name": "krack-front-end",
+  "version": "0.1.0",
+  "private": true,
+  "dependencies": {
+    "@apollo/link-context": "^2.0.0-beta.3",
+    "@apollo/react-hooks": "^3.1.5",
+    "@testing-library/jest-dom": "^4.2.4",
+    "@testing-library/react": "^9.5.0",
+    "@testing-library/user-event": "^7.2.1",
+    "antd": "^4.3.3",
+    "apollo-boost": "^0.4.9",
+    "apollo-cache-inmemory": "^1.6.6",
+    "apollo-client": "^2.6.10",
+    "apollo-link": "^1.2.14",
+    "apollo-link-context": "^1.0.20",
+    "apollo-link-error": "^1.1.13",
+    "apollo-link-http": "^1.5.17",
+    "apollo-upload-client": "^13.0.0",
+    "graphql": "^15.1.0",
+    "graphql-tag": "^2.10.3",
+    "lodash": "^4.17.20",
+    "react": "^16.13.1",
+    "react-annotation-tool": "^1.1.5",
+    "react-cookie": "^4.0.3",
+    "react-dom": "^16.13.1",
+    "react-image-annotate": "^1.6.1",
+    "react-image-crop": "^8.6.4",
+    "react-router-dom": "^5.2.0",
+    "react-scripts": "^3.4.3",
+    "scandit-sdk": "^5.0.1"
+  },
+  "scripts": {
+    "start": "export HTTPS=true&&SSL_CRT_FILE=cert.pem&&SSL_KEY_FILE=key.pem react-scripts start",
+    "build": "react-scripts build",
+    "test": "react-scripts test",
+    "eject": "react-scripts eject"
+  },
+  "eslintConfig": {
+    "extends": "react-app"
+  },
+  "prettier": {
+    "singleQuote": true
+  },
+  "browserslist": {
+    "production": [
+      ">0.2%",
+      "not dead",
+      "not op_mini all"
+    ],
+    "development": [
+      "last 1 chrome version",
+      "last 1 firefox version",
+      "last 1 safari version"
+    ]
+  }
+}
